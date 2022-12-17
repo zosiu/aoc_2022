@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def input(day)
-  File.read("input/day_#{day}.txt")
+  File.read("input/day_#{day}.txt").strip
 end
 
 def input_lines(day)
